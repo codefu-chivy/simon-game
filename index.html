@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Simon Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="css/style.css">  
+  </head>
+
+  <body>
+    <div id="outer">
+    <div id="inner">
+      <div id="top-half">
+        <div id="top-left" class="button"></div>
+        <div id="top-right" class="button"></div>
+      </div>
+      <div id="center">
+        <div id="content">
+          <h2 id="name">SIMON<span id="mark">®</span></h2>
+          <div id="start">
+            <h5>Start/Off</h5>
+            <button class="btn btn-success" id="begin"></button>
+          </div> 
+          <div id="strict">
+            <h5>Strict</h5>
+            <button class="btn btn-warning" id="strict-setting"></button>
+          </div>
+          <h2 id="count"></h2>
+        </div>  
+      </div>
+      <div id="lower-half">
+        <div id="lower-right" class="button"></div>
+        <div id="lower-left" class="button"></div>
+      </div>  
+    </div>  
+  </div>  
+  <div id="background">
+    <button class="btn btn-primary" id="background-change">Change Background</button>
+  </div>
+  <div id="background-images">
+    <img src="http://miriadna.com/desctopwalls/images/max/Dense-forest.jpg"/>
+    <img src="http://www.beach-backgrounds.com/wallpapers/the-inspiring-view-of-sunrise-on-tathra-beach-australia-2560x1600-623.jpg"/>
+    <img src="http://cdn.pcwallart.com/images/dusk-city-wallpaper-wallpaper-3.jpg"/>
+    <img src="http://kingofwallpapers.com/abstract/abstract-003.jpg"/>  
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js'></script>
+  <script src="js/index.js"></script>
+ </body>
+</html>
