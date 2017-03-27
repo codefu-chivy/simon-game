@@ -1,4 +1,3 @@
-$("#background-images").hide();
 $(function() {
   var strict = false;
   var onOff = false;
